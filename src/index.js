@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
-
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export * from './components/CustomInput'
+export * from './components/header'
+export * from './components/InfinityScroll'
+export * from './components/modalView'
+export * from './components/customButton'

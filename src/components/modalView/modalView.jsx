@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './modalView.css';
 import CustomButton from '../customButton/customButton';
-import useFetchPokemonDetails from '../../services/pokeDetails';
+import useFetchPokemonDetails from '../../hooks/pokeDetails';
 
 const CustomModal = ({handleClick, title, fetchUrl, imageKey}) => {
 
