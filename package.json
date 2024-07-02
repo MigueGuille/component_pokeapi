@@ -6,8 +6,9 @@
   "license": "MIT",
   "repository": "MigueGuille/component_pokeapi",
   "main": "dist/index.js",
-  "module": "dist/index.modern.js",
-  "source": "src/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [ "dist", "README.md" ],
   "engines": {
     "node": ">=10"
   },
@@ -46,8 +47,5 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }
