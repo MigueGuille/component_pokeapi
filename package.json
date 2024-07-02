@@ -16,7 +16,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build":"rm -rf dist && cross-env NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "rm -rf dist && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
@@ -31,6 +31,9 @@
     "react": "^16.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.24.7",
+    "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.3",
     "eslint": "^6.8.0",
